@@ -3,7 +3,7 @@ h1 {
   font-size: 80px;
   font-style: italic;
   text-align: right;
-  padding: 30px 30% 2px 80px;
+  padding: 30px 5% 2px 80px;
   font-family: 'Zilla Slab', serif;
 }
 
@@ -22,12 +22,20 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 30%;
-  }
+}
+
 
 a {
   color: white;
   font-style: italic;
+}
+
+.kontakt {
+  color: black;
+  font-size: 32px;
+  text-align: right;
+  font-weight: 600;
+  padding: 0px 0 50px 20px;
 }
 
 .menu {
@@ -35,7 +43,7 @@ a {
   padding: 0;
   text-align: center;
   background-color: gray;
-  }
+}
 
 .menu li {
   display:inline-block;
@@ -53,18 +61,10 @@ a {
 .menu a:hover,
 .menu a:focus,
 .menu a:active {
-    background-color: #636160;
+ background-color: #636160;
 }
 
-.kontakt {
-  color: black;
-  font-size: 32px;
-  text-align: right;
-  font-weight: 600;
-  padding: 0px 15% 50px 20px;
-}
 
-.udaje,
 .praxe, 
 .vzdelani,
 .jazyk,
@@ -74,7 +74,7 @@ a {
   padding: 0%;
   font-style: italic;
   text-align: center;
-  width: 15%;
+  width: 20%;
   font-size: 35px;
 }
 
@@ -111,6 +111,7 @@ td {
 tr {
   margin: 50px 0 10px 0;
 }
+
 .tytul {
   text-align: left;
   font-size: 32px;
@@ -132,7 +133,7 @@ table {
 .rok3 {
   text-align: left;
   padding: 10px 50px 0 30px;
- }
+}
 
 .rok {
   text-align: right;
@@ -145,8 +146,6 @@ table {
   margin: 40px 0;
 }
 
-
-
 .paticka p {
   background-color: gray;
   color: white;
@@ -154,5 +153,6 @@ table {
   padding: 15px 0;
   font-size: 30px;
   font-style: italic;
+  font-weight: 700;
   font-family: 'Zilla Slab', serif;
 }
